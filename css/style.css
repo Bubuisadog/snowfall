@@ -1,0 +1,42 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+body{
+  height: 100%;
+  margin: 0px;
+  background: #730000;  font-family: 'Lobster', cursive;
+
+}
+
+header{
+
+}
+
+header h1{
+  color: #fff;
+  font-size: 8em;
+  text-align: center;
+}
+
+.frz{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  color: #fff;
+}
+#trees{
+  height: 150px;
+  background: url('http://i.imgur.com/VUAao95.png') repeat-x;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+#snow{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 100;
+}
